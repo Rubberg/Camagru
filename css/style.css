@@ -1,0 +1,428 @@
+html, button, body, .wrapper, #sentpict, #sendcom, #filterval, #delpic, #uppic, #sentuppic{
+	font-family: 'Orbitron', sans-serif;
+}
+
+nav {
+	display: block;
+	background-color: #5A8B9A;
+	width: 100%;
+	padding: 30px 0;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+a:hover, a:focus, button:hover, button:focus, #sentpict:hover, #sentpict:focus {
+	color: #3E5863;
+}
+
+a:active {
+	color: red;
+}
+
+
+.index {
+	display: inline-block;
+	font-size: 60px;
+	text-align: center;
+
+
+}
+
+#nolog {
+	font-size: 150px;
+	text-align: center;
+}
+
+.menu {
+	float: right;
+	margin-top: 7px;
+	font-size: 20px;
+}
+
+li {
+	list-style: none;
+	float: left;
+	margin-left: 15px;
+	margin-top: 15px;
+}
+
+body {
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	background-color: #CED5D8;
+	/*background-image: url("SLB.jpg");*/
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.wrapper {
+	flex: 1;
+	perspective: 800px;
+}
+
+h2, legend {
+	font-size: 24px;
+
+}
+
+
+.formm, #upload {
+	max-width: 250px;
+	border: 1px solid #EEE;
+	padding: 15px;
+	margin-top: 4%;
+	margin-left: auto;
+	margin-right: auto;
+    box-sizing: border-box;
+    display: block;
+    transition-property: background-color, transform, max-width;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+}
+
+.formm:hover {
+	background-color: #3E5863;
+	transform: translateZ(-200px);
+	transform: rotateY(360deg);
+	max-width: 500px;
+}
+
+#delpicform, #comment
+ {
+	border: none;
+}
+
+form label {
+    width: 100%;
+    display: block;
+}
+
+
+video, canvas, #insight{
+	max-width: 100%;
+	height: auto;
+	margin: 0 auto;
+	display: block;
+}
+
+fieldset {
+	display: inline-block;
+	margin-top: 2%;
+	margin-right: 1%;
+	margin-left: 1%;
+	background-color: #9EAFB5;
+}
+
+.select {
+	min-width: 650px;
+	width: 72%;
+}
+
+.select, #vidpic {
+	margin-left: 2%;
+}
+
+.filter {
+	width: 25%;
+	height: 200px;
+	float:	left;
+	display: flex;
+}
+
+.scar {
+	margin: auto;
+}
+
+.vidpic {
+	min-width: 200px;
+	width: 35%;
+	height: 30%;
+	float: left;
+	position: relative;
+}
+
+#vid {
+	position: relative;
+}
+
+#filtoncam {
+	z-index: 1;
+	position: absolute;
+	top: 9%;
+	left: 50%;
+	max-width: 13%;
+	height: auto;
+
+}
+
+#video {
+	z-index: 0;
+	position: relative;
+}
+
+.minigallery {
+	min-width: 304px;
+	width: 21%;
+	right: 1%;
+	/*top: 8%;*/
+	margin-top: 3%;
+	position: absolute;
+}
+
+
+.minipic {
+	height: auto;
+	min-width: 130px;
+	width: 46%;
+	margin: 1%;
+}
+
+
+#takephoto, #submit, .comtextinput {
+	width: 100%;
+}
+
+#savepic, #uppic {
+	background-color: buttonface;
+}
+
+#uppic, #email, #login, #password {
+	display: block;
+	width: 100%;
+}
+
+#sendcom, #filterval, #delpic {
+	width: 100%;
+	border: 1px solid #EEE;
+	color: buttontext;
+}
+
+#sentuppic, #sentpict {
+	width: 100%;
+	border: none;
+}
+
+#sendcom, #filterval, #delpic, #uppic, #sentuppic {
+	padding: 15px;
+}
+
+#filterval, #uppic, #sentuppic {
+	border: 1px solid #EEE;
+}
+
+.galleryelem {
+	min-height: 20%;
+	max-width: 350px;
+	margin-left: 65px;
+	vertical-align: top;
+}
+
+.gallerypic {
+	max-width: 350px;
+	max-height: 600px;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+
+#coeur {
+	width: 15%;
+	height: 15%;
+	display: inline-block;
+
+}
+
+#like {
+	text-align: center;
+}
+
+#delpic {
+	margin-top: 5%;
+}
+
+#comment {
+	max-width: 350px;
+	min-height: 50px;
+}
+
+.comtext {
+	font-size: 12px;
+	word-wrap: break-word; 
+}
+
+.comtextinput {
+	min-height: 80px;
+}
+
+.comlist {
+	width: 350px;
+	max-height: 150px;
+ 	overflow: auto;
+}
+
+hr {
+	width: 75%;
+}
+
+button {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 250px;
+	border: 1px solid #EEE;
+	padding: 15px;
+	margin-top: 4%;
+}
+
+
+#create, #connect, #modif, #forgotten{
+	display: block;
+	vertical-align: top;
+	width: 49%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#create h2, #connect h2, #modif h2, #forgotten h2 {
+	text-align: center;
+}
+
+p {
+	text-align: center;
+}
+
+footer {
+	height: 130px;
+	text-align: center;
+	background-color: #5A8B9A;
+	margin-top: 30px;
+}
+
+
+@media all and (max-width: 1280px) {
+
+
+	h2, legend {
+		font-size: 50px;
+	}
+
+	.index {
+		font-size: 80px;
+	}
+
+	.minigallery {
+		margin-top: 3%;
+		width: 98%;
+		min-height: 30%;
+		position: relative;
+		right: 0px;
+	}
+
+	.select {
+		width: 98%;
+	}
+
+	.vidpic {
+		display: block;
+		width: 98%;
+	}
+
+	.select, #vidpic {
+		margin-left: 1%;
+	}
+
+	.minipic {
+		height: auto;
+		width: 30%;
+		margin: 1%;
+	}
+
+	#pages, #submit, #uppic, #sentuppic, #sentpict, #takephoto, #pictitle, input {
+		font-size: 29px;
+	}
+
+	#sendcom, #delpic, #like {
+		font-size: 25px;
+	}
+
+	.formm, #upload {
+		font-size: 40px;
+		max-width: 500px;
+	}
+
+	#upload label {
+		text-align: center;
+    	font-size: 30px;
+	}
+
+	button {
+		max-width: 100%;
+	}
+
+	#login, #password, #oldpwd, #nempwd, #email {
+		height: 50px;
+	}
+
+}
+
+@media all and (max-width: 1000px) {
+	
+	nav {
+		text-align: center;
+	}
+}
+
+
+
+.grayscale {
+	filter: grayscale(1);
+	-webkit-filter: grayscale(1);
+	-moz-filter: grayscale(1);
+	-ms-filter: grayscale(1);
+}
+
+.sepia {
+	filter: sepia(1);
+	-webkit-filter: sepia(1);
+	-moz-filter: sepia(1);
+	-ms-filter: sepia(1);
+}
+			
+.blur {
+	filter: blur(3px);
+	-webkit-filter: blur(3px);
+	-moz-filter: blur(3px);
+	-ms-filter: blur(3px);
+}
+
+.invert {
+	filter: invert();
+	-webkit-filter: invert();
+	-moz-filter: invert();
+	-ms-filter: invert();
+}
+
+.saturate {
+	filter: saturate(1500%);
+	-webkit-filter: saturate(1500%);
+	-moz-filter: saturate(1500%);
+	-ms-filter: saturate(1500%);
+}
+
+.hue-rotate {
+	filter: hue-rotate(120deg);
+	-webkit-filter: hue-rotate(120deg);
+	-moz-filter: hue-rotate(120deg);
+	-ms-filter: hue-rotate(120deg);
+}
